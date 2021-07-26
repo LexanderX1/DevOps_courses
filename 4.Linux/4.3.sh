@@ -1,4 +1,7 @@
 #!/bin/bash
-echo vvedite stroku
-read  -t 5 -p
+if read -t 5 -p "vvedite stroku: " 
+then
 echo $REPLY
+else
+echo "vremia vishlo"
+fi
