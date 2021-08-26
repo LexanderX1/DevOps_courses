@@ -67,7 +67,8 @@
         "expect_disconnect": true,
         "scripts": [
 
-            "script/vagrant.sh"
+            "script/vagrant.sh",
+			"script/virtualbox.sh"
     
 
         ],
